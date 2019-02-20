@@ -1,0 +1,67 @@
+.loginNew{
+  width:100%;
+  height:100%;
+  background: transparent url('../images/loginbg.jpg') no-repeat;
+  background-size:100% 100%;
+  position: relative;
+  .movingImg{
+    position: absolute;
+    width:1200px;
+    height:600px;
+    top:50%;
+    left:50%;
+    margin-top: -300px;
+    margin-left:-600px;
+    background: transparent url('../images/loginMoving.gif') no-repeat;
+    background-size:100% 100%;
+    //border:1px solid green;
+    .loginArea{
+      position: absolute;
+      right:100px;
+      top:50%;
+      width:300px;
+      height:300px;
+      margin-top:-150px;
+      padding:10px;
+      padding-top: 0;
+      //border:1px solid blue;
+      h3{
+        text-align: center;
+        font-family: 'Microsoft YaHei';
+        font-size:25px;
+        margin:0px;
+        margin-bottom: 50px;
+        font-weight: normal;
+        color:#333;
+      }
+      .betterStyle{
+        margin:20px 0 45px;
+      }
+      .emailInfo{
+        text-align: center;
+        color:#999;
+        font-size:12px;
+        span{
+          color:#00a0e9;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .recBrowser{
+    position: absolute;
+    bottom:10px;
+    width:100%;
+    text-align: center;
+    color:#666;
+    font-size:12px;
+  }
+}
+@media screen and (max-width: 1280px){
+  .loginNew .movingImg{
+    width:1000px;
+    height:500px;
+    margin-left:-500px;
+    margin-top:-250px;
+  }
+}

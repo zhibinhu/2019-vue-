@@ -1,0 +1,396 @@
+[
+  {
+    "path": "/firstLevel",
+    "icon": "ios-paper",
+    "title": "项目管理",
+    "name": "firstLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "oppoManagementList",
+        "icon": "ios-paper-outline",
+        "title": "商机信息管理",
+        "name": "oppoManagementList",
+        "component": "projectManagement/oppoManagementList"
+      },
+      {
+        "path": "projectList",
+        "icon": "ios-paper-outline",
+        "title": "项目信息管理",
+        "name": "projectList",
+        "component": "projectManagement/projectList"
+      },
+      {
+        "path": "projectListCostList",
+        "icon": "ios-paper-outline",
+        "title": "项目成本预估列表",
+        "name": "projectListCostList",
+        "component": "costBudget/projectListCostList"
+      },
+      {
+        "path": "projectReport",
+        "icon": "ios-paper-outline",
+        "title": "项目月报",
+        "name": "projectReport",
+        "component": "projectReport/reportList"
+      }
+    ]
+  },
+  {
+    "path": "/secondLevel",
+    "icon": "ios-paper",
+    "title": "工时核销管理",
+    "name": "secondLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "workTimeInfoMange",
+        "icon": "ios-paper-outline",
+        "title": "工时填报管理",
+        "name": "workTimeInfoMange",
+        "component": "workingHourManage/workTimeInfoMange"
+      },
+      {
+        "path": "oppoWorkHoursManagement",
+        "icon": "ios-paper-outline",
+        "title": "商机工时审批",
+        "name": "oppoWorkHoursManagement",
+        "component": "workingHourManage/oppoWorkHoursManagement"
+      },
+      {
+        "path": "projectWorkHoursManagement",
+        "icon": "ios-paper-outline",
+        "title": "项目工时审批",
+        "name": "projectWorkHoursManagement",
+        "component": "workingHourManage/projectWorkHoursManagement"
+      },
+      {
+        "path": "innerProjectMonthList",
+        "icon": "ios-paper-outline",
+        "title": "内部管理工时审批",
+        "name": "innerProjectMonthList",
+        "component": "workingHourManage/innerProjectMonthList"
+      },
+      {
+        "path": "outsourcerWorkloadInfo",
+        "icon": "ios-paper-outline",
+        "title": "外包工作量确认",
+        "name": "outsourcerWorkloadInfo",
+        "component": "outsourcerWorkloadInfo/outsourcerWorkloadInfo"
+      }
+    ]
+  },
+  {
+    "path": "/thirdLevel",
+    "icon": "ios-paper",
+    "title": "系统管理",
+    "name": "thirdLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "organizationAndManageList",
+        "icon": "ios-paper-outline",
+        "title": "组织管理列表",
+        "name": "organizationAndManageList",
+        "component": "systeMmanagement/organizationAndManageList"
+      },
+      {
+        "path": "userList",
+        "icon": "ios-paper-outline",
+        "title": "用户列表",
+        "name": "userList",
+        "component": "systeMmanagement/userList"
+      },
+      {
+        "path": "dataictionaryList",
+        "icon": "ios-paper-outline",
+        "title": "数据字典",
+        "name": "dataictionaryList",
+        "component": "systeMmanagement/dataictionaryList"
+      }
+    ]
+  },
+  {
+    "path": "/fourthLevel",
+    "icon": "ios-paper",
+    "title": "统计分析",
+    "name": "fourthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "oppoCostDetail",
+        "icon": "ios-paper-outline",
+        "title": "商机成本明细",
+        "name": "oppoCostDetail",
+        "component": "statisticalAnalysis/oppoCostDetail"
+      },
+      {
+        "path": "projectCostDetail",
+        "icon": "ios-paper-outline",
+        "title": "项目成本明细",
+        "name": "projectCostDetail",
+        "component": "statisticalAnalysis/projectCostDetail"
+      },
+      {
+        "path": "internalManagementCostDetail",
+        "icon": "ios-paper-outline",
+        "title": "内部管理成本明细",
+        "name": "internalManagementCostDetail",
+        "component": "statisticalAnalysis/internalManagementCostDetail"
+      },
+      {
+        "path": "employeesWorkRate",
+        "icon": "ios-paper-outline",
+        "title": "员工报工率",
+        "name": "employeesWorkRate",
+        "component": "statisticalAnalysis/employeesWorkRate"
+      },
+      {
+        "path": "timeReportStatistics",
+        "icon": "ios-paper-outline",
+        "title": "工时填报情况统计",
+        "name": "timeReportStatistics",
+        "component": "statisticalAnalysis/timeReportStatistics"
+      },
+      {
+        "path": "notWrittenTimeStatistics",
+        "icon": "ios-paper-outline",
+        "title": "工时未被审批情况",
+        "name": "notWrittenTimeStatistics",
+        "component": "statisticalAnalysis/notWrittenTimeStatistics"
+      },
+      {
+        "path": "oursourcerWorkCount",
+        "icon": "ios-paper-outline",
+        "title": "月度外包服务报告维护",
+        "name": "oursourcerWorkCount",
+        "component": "statisticalAnalysis/oursourcerWorkCount"
+      }
+    ]
+  },
+  {
+    "path": "/fifthLevel",
+    "icon": "ios-paper",
+    "title": "主数据管理",
+    "name": "fifthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "customerInfor",
+        "icon": "ios-paper-outline",
+        "title": "客户信息管理",
+        "name": "customerInfor",
+        "component": "customerInforManage/customerInfor"
+      },
+      {
+        "path": "channelInfor",
+        "icon": "ios-paper-outline",
+        "title": "渠道信息管理",
+        "name": "channelInfor",
+        "component": "customerInforManage/channelInfor"
+      },
+      {
+        "path": "productLine",
+        "icon": "ios-paper-outline",
+        "title": "产品线管理",
+        "name": "productLine",
+        "component": "customerInforManage/productLine"
+      },
+      {
+        "path": "product",
+        "icon": "ios-paper-outline",
+        "title": "产品管理",
+        "name": "product",
+        "component": "customerInforManage/product"
+      },
+      {
+        "path": "listSupplier",
+        "icon": "ios-paper-outline",
+        "title": "供应商管理",
+        "name": "listSupplier",
+        "component": "supplier/listSupplier"
+      },
+      {
+        "path": "outresourcePersion",
+        "icon": "ios-paper-outline",
+        "title": "外包人员管理",
+        "name": "outresourcePersion",
+        "component": "outResource/outresourcePersion"
+      }
+    ]
+  },
+  {
+    "path": "/sixthLevel",
+    "icon": "ios-paper",
+    "title": "业务设置",
+    "name": "sixthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "levelCostManage",
+        "icon": "ios-paper-outline",
+        "title": "职级成本管理",
+        "name": "levelCostManage",
+        "component": "businessSet/levelCostManage"
+      },
+      {
+        "path": "personnelLevelManage",
+        "icon": "ios-paper-outline",
+        "title": "人员职级查询",
+        "name": "personnelLevelManage",
+        "component": "businessSet/personnelLevelManage"
+      },
+      {
+        "path": "employeeRegistrationList",
+        "icon": "ios-paper-outline",
+        "title": "入职离职登记簿",
+        "name": "employeeRegistrationList",
+        "component": "businessSet/employeeRegistrationList"
+      },
+      {
+        "path": "timeFillingSwitch",
+        "icon": "ios-paper-outline",
+        "title": "工时填报开关",
+        "name": "timeFillingSwitch",
+        "component": "businessSet/timeFillingSwitch"
+      }
+    ]
+  },
+  {
+    "path": "/seventhLevel",
+    "icon": "ios-paper",
+    "title": "共享文档",
+    "name": "seventhLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "waiwang",
+        "icon": "ios-paper-outline",
+        "title": "共享文档",
+        "name": "waiwang",
+        "component": "businessSet/waiwang"
+      }
+    ]
+  },
+  {
+    "path": "/eighthLevel",
+    "icon": "ios-paper",
+    "title": "系统设置",
+    "name": "eighthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "sys/userManagement",
+        "icon": "ios-paper-outline",
+        "title": "用户管理",
+        "name": "sys/userManagement",
+        "component": "sys/user/userManagement"
+      },
+      {
+        "path": "sys/organizationList",
+        "icon": "ios-paper-outline",
+        "title": "组织管理",
+        "name": "sys/organizationList",
+        "component": "sys/org/organizationList"
+      },
+      {
+        "path": "sys/roleManagementList",
+        "icon": "ios-paper-outline",
+        "title": "角色管理",
+        "name": "sys/roleManagementList",
+        "component": "sys/role/roleManagementList"
+      },
+      {
+        "path": "sys/roleAssignmentList",
+        "icon": "ios-paper-outline",
+        "title": "角色人员权限分配",
+        "name": "sys/roleAssignmentList",
+        "component": "sys/rolePerson/roleAssignmentList"
+      },
+      {
+        "path": "sys/postManagementList",
+        "icon": "ios-paper-outline",
+        "title": "岗位管理",
+        "name": "sys/postManagementList",
+        "component": "sys/post/postManagementList"
+      },
+      {
+        "path": "sys/dictionaryItemMaintenanceList",
+        "icon": "ios-paper-outline",
+        "title": "字典项管理",
+        "name": "sys/dictionaryItemMaintenanceList",
+        "component": "sys/dict/dictionaryItemMaintenanceList"
+      },
+      {
+        "path":"sys/resourcesManagement",
+        "icon": "ios-paper-outline",
+        "title": "资源管理",
+        "name": "sys/resourcesManagement",
+        "component": "sys/resources/resourcesManagement"
+      },
+      {
+        "path":"sys/rolePowerSet",
+        "icon": "ios-paper-outline",
+        "title": "角色权限分配",
+        "name": "sys/rolePowerSet",
+        "component": "sys/rolePower/rolePowerSet"
+      },
+      {
+        "path":"sys/userRemindTepMageList",
+        "icon": "ios-paper-outline",
+        "title": "用户提醒模板管理",
+        "name": "sys/userRemindTepMageList",
+        "component": "sys/userRemindTepMege/userRemindTepMageList"
+      }
+
+    ]
+  },
+  {
+    "path": "/eighthLevel",
+    "icon": "ios-paper",
+    "title": "报销管理",
+    "name": "eighthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "listBusinessTrip",
+        "icon": "ios-paper-outline",
+        "title": "出差申请",
+        "name": "listBusinessTrip",
+        "component": "reimbursement/listBusinessTrip"
+      },
+      {
+        "path": "listExpenseAccount",
+        "icon": "ios-paper-outline",
+        "title": "报销申请",
+        "name": "listExpenseAccount",
+        "component": "reimbursement/listExpenseAccount"
+      }
+    ]
+  },
+  {
+    "path": "/ninthLevel",
+    "icon": "ios-paper",
+    "title": "合同管理",
+    "name": "ninthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "listSalesContract",
+        "icon": "ios-paper-outline",
+        "title": "销售合同管理",
+        "name": "listSalesContract",
+        "component": "salesContract/listSalesContract"
+      },
+      {
+        "path": "listPurchaseContract",
+        "icon": "ios-paper-outline",
+        "title": "采购合同管理",
+        "name": "listPurchaseContract",
+        "component": "salesContract/listPurchaseContract"
+      }
+    ]
+  }
+]
+
+
